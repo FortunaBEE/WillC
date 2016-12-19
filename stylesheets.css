@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}	
+body{
+	min-width:960px;
+}
+
+
+	/*标题*/
+#header{
+	position:fixed; 
+	width:100%; 
+	z-index:9999;
+}
+
+.headerTop{
+	background: #0c407a;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #DCF8FE;
+	overflow:hidden;
+}
+
+.headerTop>ul>li{
+	float: right;
+	margin-right: 2%;
+	list-style-type: none; 
+	opacity: 0.5;
+}
+
+.headerTop>ul>li>a{
+ 	text-decoration: none;
+    color: #DCF8FE;
+}
+
+.headerTop>ul>li:hover{
+	transform: scale(1.5,1.5);
+    -ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    transition: 0.3s;
+    opacity:1;
+}
+
+.headerTop>ul>img{
+	float: right;
+	margin-top: 15px;
+}
+
+.headerTop>select{
+	float: right;
+	margin-right: 18%;
+	margin-top: 10px;
+	margin-left: 1.5%;
+    border: solid 1px #0c407a;
+	background: #0c407a;
+	color: #DCF8FE;
+	opacity: 0.5;
+}
+
+.headerTop>select:hover{
+	opacity: 1;
+}
+
+
+	/*导航*/	
+.headerNav{
+	height:95px;
+	width: 100%;
+	background: #fff;
+	line-height: 100px;
+	overflow:hidden;
+}
+
+.headerNav>a{
+	float: right;
+ 	text-decoration:none;
+ 	margin-right: 2%;
+ 	font-size: 20px;
+ 	color: #787878;
+ 	background: url(image/形状-7.png) no-repeat;
+ 	background-position: 0px 105px;
+}
+.headerNav>a:hover{
+	color: black;
+    background-position: 0px 80px;
+	transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    transition: 0.3s;
+}
+
+.headerNav>img{
+	float: right;
+	margin-right: 1%;
+}
+.headerNav>.headerNav1{
+	margin-right: 18%;
+}
+
+#logo{
+	float: right;
+	margin-top: 15px;
+	margin-right: 8%;
+	transform:none;
+}
+
+	/*第一屏*/
+
+.section{
+	position: relative;
+	overflow: hidden;
+	font:Microsoft YaHei;
+}
+
+.s1{
+	background:url(image/背景.png) no-repeat center;
+	background-size: cover;
+}
+
+.pc{
+	margin-top:21%; 
+	margin-left: 18%; 
+	float: left;
+	width: 1300px;
+}
+
+.pcimg{
+    float: left;
+    overflow: hidden;
+}
+
+.EA-T{
+	text-align: center;
+	margin-right: 13%;
+	margin-top: 1.5%;
+	width: 389px;
+	float: right;
+}
+
+.EA{
+}
+
+.EAtext{
+	margin-top: 32%;
+	margin-left: 2%;
+	overflow: hidden;
+	width: 102%;
+	font: 18px;
+	color:  #DCF8FE;
+	line-height: 25px;
+	text-align: left;
+}
+
+/*第二屏*/
+.s2{
+	background:url(image/背景2.png) no-repeat center;
+	background-size: cover;
+	font: 18px;
+}
+.s2conent>img{
+	margin-top: 22%;
+	margin-left: 60% ;
+}
+.s2conent>.s2p1{
+	width: 20%;
+	margin-left: 22%;
+	margin-top: -12%;
+	color:  #DCF8FE;
+	line-height: 25px;
+}
+
+.s2conent>.s2p2{
+	width: 20%;
+	margin-left: 29%;
+	margin-top: 6%;
+	color:  #DCF8FE;
+	line-height: 25px;
+}
+
+.s2conent>.s2p3{
+	width: 20%;
+	margin-left: 55%;
+	margin-top: 7%;
+	color:  #DCF8FE;
+	line-height: 25px;
+}
+
+/*第三屏*/
+.s3{
+	background:url(image/背景3.png) no-repeat center;
+	background-size: cover;
+	font: 18px;
+	position: relative;
+}
+.s3>.s3content{
+}
+
+.s3>.s3content>img{
+	position: absolute;
+	width: 32%;
+    top: 27%;
+    left: 35%;
+}
+.s3>.s3content>.s3Text1{
+	position: absolute;
+	width: 20%;
+	left: 13%;
+	top: 51%;
+	color:  #DCF8FE;
+	line-height: 25px;
+	text-align: left;
+}
+.s3>.s3content>.s3Text2{
+	position: absolute;
+    width: 20%;
+	left: 41%;
+	top: 20%;
+	color:  #DCF8FE;
+	line-height: 25px;
+	text-align: left;
+}
+.s3>.s3content>.s3Text3{
+	position: absolute;
+	width: 20%;
+	left: 69%;
+	top: 51%;
+	color:  #DCF8FE;
+	line-height: 25px;
+	text-align: left;
+}
+.s3>.s3content>.s3Text4{
+	position: absolute;
+	width: 20%;
+	left: 41%;
+	top: 90%;
+	color:  #DCF8FE;
+	line-height: 25px;
+	text-align: left;
+}
+
+
+/*@media screen and (max-width:1600px){
+ 	.s3>.s3content>img{
+ 		margin-left: 35%;
+ 		margin-top: 18%;
+ 	}
+ 	.s3>.s3content>.s3Text1{
+ 		margin-top: -20%;
+ 	}
+ 	.s3>.s3content>.s3Text2{
+ 		margin-top: -28%;
+ 	}
+
+}*/
+
+/*第四屏*/
+.s4{
+	background:url(image/背景4.png) no-repeat center;
+	background-size: cover;
+	font: 18px;
+	color: #51028c;
+}
+.s4>.s4Content{
+	width: 58%;
+	margin: 200px auto;
+}
+
+.s4>.s4Content>.s4Logo{
+	height: 80px;
+}
+
+.s4>.s4Content>.s4Logo>h1{
+	display: inline;
+	position: relative;
+	top: -27px;
+	left: 10px;
+}
+
+.s4>.s4Content>.s4TextL{
+	float: left;
+	width: 34%;
+	margin-left: 10%;
+	line-height: 200%;
+}
+
+.s4>.s4Content>.s4TextL>ul>li{
+	margin-bottom: 10%;
+	list-style-type: none; 
+}
+
+.s4>.s4Content>.s4TextR{
+	float: right;
+	width: 34%;
+    margin-right: 6%;
+    line-height: 200%;
+}
+
+.s4>.s4Content>.s4TextR>ul>li{
+	margin-bottom: 1.9%;
+	list-style-type: none;
+}
+
+.s4>.s4Content>.s4TextL>ul>li>h2{
+	text-indent: 35px;
+	background: url(image/椭圆-14.png) no-repeat;
+    background-position: 0 3px;
+}
+
+.s4>.s4Content>.s4TextR>ul>li>h2{
+	text-indent: 35px;
+	background: url(image/椭圆-14.png) no-repeat;
+    background-position: 0 3px;
+}
+
+.s4>.s4Content>.s4Textline{
+	margin-top: -10%;
+}
